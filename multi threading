@@ -1,0 +1,2 @@
+CopyOnWriteArrayList
+This is a very useful construct in the multi-threaded programs – when we want to iterate over a list in a thread-safe way without an explicit synchronization.
