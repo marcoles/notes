@@ -1,0 +1,4 @@
+Generics 
+- clears type info after compilation
+- covariance (upper bounded wildcard) <? extends Type> only get
+- contravariance (lower bounded wildcard) <? super Type> only put
