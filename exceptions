@@ -1,0 +1,17 @@
+              ---> Throwable <--- 
+              |    (checked)     |
+              |                  |
+              |                  |
+      ---> Exception           Error
+      |    (checked)        (unchecked)
+      |
+RuntimeException
+  (unchecked)
+  
+  
+  
+If execution of the try block completes abruptly for any other reason R, then the finally block is executed, and then there is a choice.
+
+If the finally block completes normally, then the try statement completes abruptly for reason R.
+
+If the finally block completes abruptly for reason S, then the try statement completes abruptly for reason S (and reason R is discarded).
